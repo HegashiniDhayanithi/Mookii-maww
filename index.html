@@ -93,7 +93,7 @@ button:active {
   color: #bda977;
 }
 
-/* Golden background particles */
+/* Golden particles */
 
 .sparkle {
   position: fixed;
@@ -278,14 +278,14 @@ footer {
 
 <body>
 
-<!-- MUSIC -->
+<!-- BACKGROUND MUSIC -->
 <audio id="music" loop>
-  <source src="assets/music.mp3" type="audio/mpeg">
+  <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <button onclick="toggleMusic()" id="musicBtn"
 style="position:fixed;top:10px;right:8px;z-index:20;">
-♫ Music
+♫ Music OFF
 </button>
 
 <!-- SCENE 1: COUNTDOWN -->
@@ -319,7 +319,7 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
 <section class="scene" id="scene2">
 
-  <p>பூமிக்கு நீ வந்த பொன்னாள் இது... 
+  <p>பூமிக்கு நீ வந்த பொன்னாள் இது...
     என் வாழ்வின் வசந்தம் தொடங்கிய திருநாள் இது...</p>
 
   <h1>Happy Birthday!!
@@ -334,7 +334,7 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <div style="font-size:50px">🥂 ✨ 🤴</div>
 
-  <button onclick="goTo(3)">Next page of love→</button>
+  <button onclick="goTo(3)">Next page of love →</button>
 
 </section>
 
@@ -348,13 +348,14 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <div class="gift" id="gift" onclick="openGift()">🎁</div>
 
-  <p>Tap the gift box to unwrap the little suprise words for you.</p>
+  <p>Tap the gift box to unwrap the little surprise words for you.</p>
 
   <div class="hidden-message" id="giftMessage">
-    <h2>✨Surprise!✨</h2>
+    <h2>✨ Surprise! ✨</h2>
     <p>
-       For my dear person
-      I couldn't fit all our best days into one box, so I packed a little smile for you instead.
+      For my dear person.
+      I couldn't fit all our best days into one box,
+      so I packed a little smile for you instead.
     </p>
     <button onclick="goTo(4)">CONTINUE →</button>
   </div>
@@ -367,13 +368,16 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <p>MAKE A WISH!</p>
 
-  <h1> Birthday Cake 🎂</h1>
+  <h1>Birthday Cake 🎂</h1>
 
   <div class="cake" id="cake" onclick="blowCandles()">🎂</div>
 
   <h2 id="cakeMessage">Tap the cake to blow out the candles!</h2>
 
-  <p class="candle-note"> All your beautiful dreams and wishes will come true.I am ready to support you on all times dear💗✨</p>
+  <p class="candle-note">
+    All your beautiful dreams and wishes will come true.
+    I am ready to support you at all times dear 💗✨
+  </p>
 
   <button id="cakeNext" style="display:none" onclick="goTo(5)">
     LET'S CELEBRATE →
@@ -387,8 +391,7 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <h1>Pop the Balloons!</h1>
 
-  <p>Each balloon is hiding a little birthday wish.
-  </p>
+  <p>Each balloon is hiding a little birthday wish.</p>
 
   <div class="balloon-area" id="balloonArea">
     <span class="balloon" onclick="popBalloon(this)">🎈</span>
@@ -420,10 +423,10 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
   </p>
 
   <div class="memory-grid">
-    <img src="assets/photo1.jpg" alt="Memory 1">
-    <img src="assets/photo2.jpg" alt="Memory 2">
-    <img src="assets/photo3.jpg" alt="Memory 3">
-    <img src="assets/photo4.jpg" alt="Memory 4">
+    <img src="photo1.jpg" alt="Memory 1">
+    <img src="photo2.jpg" alt="Memory 2">
+    <img src="photo3.jpg" alt="Memory 3">
+    <img src="photo4.jpg" alt="Memory 4">
   </div>
 
   <p>Every picture holds our little story ❤️</p>
@@ -436,13 +439,13 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
 <section class="scene" id="scene7">
 
-  <h1>A Video that holds lots of memories and love </h1>
+  <h1>A Video that holds lots of memories and love</h1>
 
   <p>Press play and enjoy the efforts of your pookii.</p>
 
   <div class="video-box">
     <video controls playsinline preload="metadata">
-      <source src="assets/memory.mp4" type="video/mp4">
+      <source src="memory.mp4" type="video/mp4">
       Your browser does not support this video.
     </video>
   </div>
@@ -461,24 +464,28 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <div class="envelope" id="envelope" onclick="openLetter()">💌</div>
 
-  <p>Tap the envelope to read thespecial letter.</p>
+  <p>Tap the envelope to read the special letter.</p>
 
   <div class="letter" id="letter">
     <h2>Dear Mine,</h2>
 
     <p>
       Dear Partner,
-            Happiest birthday.May this birthday brings you lots of happiness thamgamaee.
+      Happiest birthday. May this birthday bring you lots of happiness thamgamaee.
     </p>
 
     <p>
       Thank you for being such a special part of my life.
-      yaarkittayum close aagadha na unkooda aana.Unkitta pesa kooda thairiyam illadha na unna love pannitu iruka ipo,nambavae mudiyala ennala..nee en life la kedaicha gift ra❤.
-      Ella situation laiyum na unnoda na irukanum nu aasa padura mookii🥺..until my death you will be loved by my me kanna🥹
+      yaarkittayum close aagadha na unkooda aana.
+      Unkitta pesa kooda thairiyam illadha na unna love pannitu iruka ipo,
+      nambavae mudiyala ennala..nee en life la kedaicha gift ra❤.
+      Ella situation laiyum na unnoda na irukanum nu aasa padura mookii🥺..
+      until my death you will be loved by my me kanna🥹
     </p>
 
     <p>
-     Unkooda na irundha,irukura and irupa mu mu.Keep smiling, keep shining and never stop being you.
+      Unkooda na irundha, irukura and irupa mu mu.
+      Keep smiling, keep shining and never stop being you.
       Once again biggest happy birthday my forever🥺❤..!!
     </p>
 
@@ -505,30 +512,28 @@ style="position:fixed;top:10px;right:8px;z-index:20;">
 
   <p>
     This little website may end here,
-    but the wishes, smiles and beautiful memories of us are started already and
+    but the wishes, smiles and beautiful memories of us
     are meant to last.
   </p>
 
   <h1 class="gold-text">✨ Forever Special ✨</h1>
 
-  <p>Made with love🫳💓</p>
+  <p>Made with love 🫳💓</p>
 
   <button onclick="restart()">REPLAY THE SURPRISE ↻</button>
 
-  <footer> A little website for my boy❤️ </footer>
+  <footer>A little website for my boy ❤️</footer>
 
 </section>
 
 <script>
 
 // =================================
-// PERSONAL DETAILS - EDIT THESE
+// PERSONAL DETAILS
 // =================================
 
-const PARTNER_NAME = "Every passing second is a quiet wish for your happiness";
+const PARTNER_NAME = "Mookii";
 
-// Change this to the actual birthday date.
-// Format: YYYY-MM-DDTHH:MM:SS+05:30
 const BIRTHDAY_DATE = "2026-11-26T00:00:00+05:30";
 
 // =================================
@@ -543,6 +548,7 @@ function updateCountdown() {
   const distance = targetDate - now;
 
   if (distance <= 0) {
+
     ["days", "hours", "minutes", "seconds"].forEach(id => {
       document.getElementById(id).textContent = "00";
     });
@@ -603,7 +609,7 @@ function toggleMusic() {
     music.play().then(() => {
       document.getElementById("musicBtn").textContent = "♫ Music ON";
     }).catch(() => {
-      alert("Please add your music file in assets/music.mp3");
+      alert("Music could not be played. Check that music.mp3 is uploaded in the main repository folder.");
     });
 
   } else {
@@ -623,7 +629,6 @@ function openGift() {
   const gift = document.getElementById("gift");
 
   gift.classList.add("open");
-
   gift.textContent = "🎊";
 
   document.getElementById("giftMessage").style.display = "block";
@@ -710,8 +715,8 @@ function sparkleBurst() {
 
     sparkle.className = "sparkle";
 
-    sparkle.textContent = ["✦", "✨", "⋆", "✧","♥"][
-      Math.floor(Math.random() * 4)
+    sparkle.textContent = ["✦", "✨", "⋆", "✧", "♥"][
+      Math.floor(Math.random() * 5)
     ];
 
     sparkle.style.left = Math.random() * 100 + "vw";
@@ -743,6 +748,7 @@ function restart() {
   document.getElementById("giftMessage").style.display = "none";
 
   document.getElementById("cake").textContent = "🎂";
+
   document.getElementById("cakeMessage").textContent =
     "Tap the cake to blow out the candles!";
 
@@ -758,13 +764,17 @@ function restart() {
   document.getElementById("balloonNext").style.display = "none";
 
   document.getElementById("envelope").classList.remove("open");
+
   document.getElementById("letter").style.display = "none";
+
   document.getElementById("letterNext").style.display = "none";
 
   goTo(1);
 }
 
-// Gentle background sparkle effect
+// =================================
+// GENTLE BACKGROUND SPARKLES
+// =================================
 
 setInterval(() => {
 
